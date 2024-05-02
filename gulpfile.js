@@ -25,13 +25,13 @@ const path = {
     blur: "src/images/**/*.jpg",
   },
   build: {
-    dir: "dist/",
+    dir: "docs/",
   },
 };
 
 // Clean Distribution folder
 const clean = (cb) => {
-  rimraf("./dist", cb);
+  rimraf("./docs", cb);
 };
 
 // Error Message
